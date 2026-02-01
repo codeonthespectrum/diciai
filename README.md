@@ -1,9 +1,13 @@
 # 🧠 DiciAI - Learn Languages with Context (Powered by AI)
 
-![DiciAI Banner](https://via.placeholder.com/1200x400/6C5CE7/FFFFFF?text=DiciAI+-+Contextual+Language+Learning)
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7f0c976c-67d8-4a16-9cb8-280343f11542" />
+
 
 > **Transform YouTube into your personalized language classroom.**  
 > Click any word in a subtitle to get instant, context-aware explanations powered by Gemini, OpenAI, or Claude.
+
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/feef8232-ec48-4f83-aded-ae2c6b30d713" />
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-4285F4?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)
@@ -32,7 +36,7 @@ Stop guessing. DiciAI analyzes the surrounding text to give you the **precise de
 ### ⚡ Multi-Provider AI Support
 You are in control. Choose the brain that powers your learning:
 - **Google Gemini** (Default, fast & smart)
-- **OpenAI (GPT-4o)** (The industry standard)
+- **OpenAI** (Most common)
 - **Anthropic Claude** (Great for nuanced explanations)
 
 ### 📚 Integrated Wordbook
@@ -40,12 +44,6 @@ Never forget a word. Every lookup is automatically saved to your local **Wordboo
 - Filter by language
 - Sort by date
 - Export your vocabulary (coming soon)
-
-### 🎨 Beautiful "Night Blue" UI
-Designed to look stunning without distracting from your video.
-- **Glassmorphism:** Frosted glass effect overlay.
-- **Dark Mode:** Easy on the eyes for late-night binge-watching.
-- **Smart Tags:** Color-coded tags for formality and grammar.
 
 ### 💸 Flexible Pricing (Free & Unlimited)
 - **Free Tier:** 30 smart lookups per day (no account needed).
@@ -78,13 +76,6 @@ graph LR
 ### From Chrome Web Store
 *(Link coming soon!)*
 
-### Manually (Developer Mode)
-1. Clone this repository.
-2. Open Chrome and go to `chrome://extensions`.
-3. Enable **Developer mode** (top right).
-4. Click **Load unpacked**.
-5. Select the `dicoai` folder from this project.
-
 ---
 
 ## 🔮 Roadmap & Future
@@ -93,10 +84,6 @@ We are just getting started. Here is what's coming next:
 
 - [ ] **Netflix Support:** Bring the power of DiciAI to your favorite series and movies on Netflix.
 - [ ] **Anki/CSV Export:** Export your Wordbook directly to flashcards for Spaced Repetition.
-- [ ] **Pronunciation Audio:** Hear how the word is spoken in that specific dialect.
-- [ ] **Gamification:** Earn streaks and badges for learning new words daily.
-- [ ] **Mobile App:** Review your words on the go.
-
 ---
 
 ## 💻 Tech Stack
@@ -105,18 +92,6 @@ We are just getting started. Here is what's coming next:
 - **Backend:** Node.js, Express (Serverless on Vercel)
 - **AI Integration:** Google Generative AI SDK, OpenAI API, Anthropic SDK
 - **Storage:** Chrome Storage API (Local user data)
-
----
-
-## 🤝 Contributing
-
-We love open source! If you want to help improve DiciAI:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
