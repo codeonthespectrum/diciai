@@ -74,7 +74,7 @@ graph LR
 ## 📦 Installation
 
 ### From Chrome Web Store
-*(Link coming soon!)*
+[*( V1.0.0 Available)*](https://chromewebstore.google.com/detail/iaogagjehfpjhaajmelonpfdndoojljd?utm_source=item-share-cb)
 
 ---
 
