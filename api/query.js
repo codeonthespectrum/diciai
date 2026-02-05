@@ -205,10 +205,22 @@ export default async function handler(req, res) {
         const cachedResult = wordCache.get(cacheKey);
 
         if (cachedResult) {
+            // Still increment rate limit for cached results (free tier)
+            let remaining = null;
+            if (!isUsingOwnKey) {
+                const clientIP = req.headers['x-forwarded-for'] || req.headers['x-real-ip'] || 'unknown';
+                const today = new Date().toDateString();
+                const rateKey = `${clientIP}-${today}`;
+                const currentCount = rateLimits.get(rateKey) || 0;
+                rateLimits.set(rateKey, currentCount + 1);
+                remaining = Math.max(0, DAILY_LIMIT - currentCount - 1);
+            }
             return res.json({
                 success: true,
                 data: cachedResult,
-                cached: true
+                cached: true,
+                remaining,
+                usingOwnKey: isUsingOwnKey
             });
         }
 
