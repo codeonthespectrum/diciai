@@ -1,4 +1,10 @@
 {
+    "rewrites": [
+        {
+            "source": "/health",
+            "destination": "/api/health"
+        }
+    ],
     "functions": {
         "api/*.js": {
             "memory": 1024,
